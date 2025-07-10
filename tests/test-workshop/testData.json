@@ -1,0 +1,20 @@
+[
+    {
+        "testName": "Fill Input",
+        "firstName": "Noah",
+        "age": "25",
+        "isAdmin": true,
+        "expectedFirstName": "Noah",
+        "expectedAge": "25",
+        "expectedIsAdmin": "Yes"
+    },
+    {
+        "testName": "Negative test",
+        "firstName": "Taylor",
+        "age": "45",
+        "isAdmin": false,
+        "expectedFirstName": "Noah",
+        "expectedAge": "45",
+        "expectedIsAdmin": "No"
+    }
+]
