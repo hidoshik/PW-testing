@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { PageObject } from './page/Page';
 
-test.describe('Sample test', () => {
+test.describe('Sample test @githubAction', () => {
     let pageObject: PageObject;
 
     test.beforeEach(async ({ browser }) => {
@@ -10,7 +10,7 @@ test.describe('Sample test', () => {
         await pageObject.open('file:///Users/admin/code/Playwright-TS/tests/test-workshop/index.html');
     })
 
-    test.skip('Fill all inputs', async () => {
+    test('Fill all inputs', async () => {
         await pageObject.fillFirstName('Noah');
         await pageObject.fillAge('25');
         await pageObject.checkIsAdmin();

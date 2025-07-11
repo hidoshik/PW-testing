@@ -12,7 +12,7 @@ test.describe('Sample test', () => {
     })
 
     for (const data of Object.values(testData)) {
-        test.only(data.testName, async () => {
+        test(data.testName, async () => {
             await pageObject.fillFirstName(data.firstName);
             await pageObject.fillAge(data.age);
             if (data.isAdmin) {
