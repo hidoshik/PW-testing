@@ -8,7 +8,7 @@ test.describe('Sample test', () => {
     test.beforeEach(async ({ browser }) => {
         const page = await browser.newPage();
         pageObject = new PageObject(page);
-        await pageObject.open('file:///Users/admin/code/Playwright-TS/tests/test-workshop/index.html');
+        await pageObject.open('file://Users/admin/code/Playwright-TS/tests/test-workshop/index.html');
     })
 
     for (const data of Object.values(testData)) {

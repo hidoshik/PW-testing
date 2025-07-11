@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { PageObject } from './page/Page';
 
-test.describe('Sample test @githubAction', () => {
+test.describe('Sample test', () => {
     let pageObject: PageObject;
 
     test.beforeEach(async ({ browser }) => {
