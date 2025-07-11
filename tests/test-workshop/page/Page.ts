@@ -22,7 +22,7 @@ export class PageObject extends AbstractPage {
         this.input = new Input(page);
     }
 
-    async open (url: string): Promise<void> {
+    async open(url: string): Promise<void> {
         await this.page.goto(url);
     }
 

@@ -13,7 +13,7 @@
         "firstName": "Taylor",
         "age": "45",
         "isAdmin": false,
-        "expectedFirstName": "Noah",
+        "expectedFirstName": "Taylor",
         "expectedAge": "45",
         "expectedIsAdmin": "No"
     }
